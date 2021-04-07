@@ -2,7 +2,7 @@ const app = new Vue({
     el: '#app',
     data:{
         titulo: 'COLLA Respuestas',
-        frases: ["Sí", "No", "Que se yo"],
+        frases: ["Sí", "No", "Que se yo", "Nose, pero yo no soy gordo, soy compacto"],
         respuesta: null,
         texto_label: '',
         pregunta: ''
