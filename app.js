@@ -1,7 +1,7 @@
 const app = new Vue({
     el: '#app',
     data:{
-        titulo: 'Colla Respuestas',
+        titulo: 'COLLA Respuestas',
         frases: ["Sí", "No", "Que se yo"],
         respuesta: null,
         texto_label: '',
