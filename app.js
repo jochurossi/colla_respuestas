@@ -10,7 +10,7 @@ const app = new Vue({
     methods:{
         
         getRandom: function(){
-            const respuestanum = Math.floor(Math.random()*(2+1))
+            const respuestanum = Math.floor(Math.random()*(3+1))
             console.log(respuestanum)
             this.respuesta = respuestanum
             this.pregunta = this.texto_label
